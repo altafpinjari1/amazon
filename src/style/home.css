@@ -1,0 +1,157 @@
+.main-homepage {
+    height: auto;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+    .main-homepage::-webkit-scrollbar {
+        display: none;
+    }
+    .main-homepage {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+.horizontal-scroll {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+    transition: transform 0.3s ease;
+    position: relative;
+    top: -10vh;
+}
+
+.card-container {
+    width: 30vh;
+    height: 30vh;
+    margin-right: 10px;
+    display: inline-block;
+    margin-top: 10vh;
+    border-radius: 2vh;
+    position: relative;
+    top: -20vh;
+    margin-left: 15px;
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+
+.card-container:hover {
+    background: rgba(224, 224, 224, 0.5);
+}
+
+.hover-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.arrow-button {
+    cursor: pointer;
+    transition: transform 0.3s ease !important;
+    margin-top: 20vh;
+    color: white;
+}
+
+.arrow-button.prev {
+    transform: translateX(-100%);
+}
+
+.arrow-button.next {
+    transform: translateX(100%);
+}
+
+.feature h1 {
+    position: relative;
+    top: 15vh;
+    color: white;
+    font-size: 4vh;
+    left: 3vw;
+    font-weight: 800;
+}
+
+.poster {
+    height: 100%;
+    width: 100%;
+    border-radius: 2vh;
+    z-index: -1;
+    opacity: 0.9;
+    transition: background 0.3s ease;
+}
+
+.poster:hover {
+    background: rgba(0, 0, 0, 0);
+    z-index: 9 !important;
+}
+
+#left {
+    position: relative;
+    left: 77vw;
+    font-size: 3vh;
+    top: -5vh;
+}
+
+#right {
+    position: relative;
+    left: 80vw;
+    font-size: 3vh;
+    top: -5vh;
+}
+
+.show-less-button,
+.see-more-button {
+    cursor: pointer;
+    margin-top: 20vh;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.show-less-button {
+    position: relative;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+    border: 2px solid transparent;
+    box-shadow: none;
+    backdrop-filter: blur(10px);
+    top: -97vh;
+    left: 85vw;
+    border-radius: 4vh;
+    height: 6vh;
+    width: 8vw;
+}
+
+.show-less-button:hover {
+    background-color: #c0392b;
+}
+
+.see-more-button {
+    position: relative;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+    border: 2px solid transparent;
+    box-shadow: none;
+    backdrop-filter: blur(10px);
+    top: -93vh;
+    left: 85vw;
+    border-radius: 4vh;
+    height: 6vh;
+    width: 8vw;
+}
+
+/* Add this style for the play icon */
+.card-container:hover::after {
+    content: '\e037';
+    font-family: 'Material Icons';
+    font-size: 36px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

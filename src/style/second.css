@@ -1,0 +1,8 @@
+.main-homepage2{
+    position: relative;
+    top: -45vh;
+}
+.title:hover{
+    color: aqua !important;
+    cursor: pointer;
+}

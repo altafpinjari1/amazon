@@ -1,0 +1,22 @@
+.album{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+.album span{
+position: relative;
+font-size: 8vh;
+color: white;
+top: 16vh;
+left: 3vw;
+font-weight: 800;
+}
+/* b{
+    position: relative;
+    top: 30vh;
+    left: 24vw;
+}
+p{
+margin-top: 28vh !important;
+margin-left: 8vh;
+} */

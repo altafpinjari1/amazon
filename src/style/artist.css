@@ -1,0 +1,22 @@
+.artist{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+.artist span{
+position: relative;
+font-size: 8vh;
+color: white;
+top: 16vh;
+left: 3vw;
+font-weight: 800;
+}
+/* b{
+    position: relative;
+    top: 30vh;
+    left: 26vw;
+}
+p{
+margin-top: 28vh !important;
+margin-left: 8vh;
+} */

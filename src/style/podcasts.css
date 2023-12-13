@@ -1,0 +1,66 @@
+.main-podcasts{
+background-color: black;
+height: 100vh;
+}
+.main-podcasts span{
+    position: relative;
+    top: 12vh;
+    color: white;
+    font-size: 3vh;
+    left: 2vh;
+    font-weight: 700;
+}
+.buttons{
+    position: relative;
+    top: 16vh;
+}
+.buttn{
+    height: 6vh;
+    width: auto;
+    border: none;
+    margin: 1vh !important;
+    border-radius: 4vh !important;
+    padding: 1vh;
+    background-color: rgba(255, 255, 255, 0.15);
+    display: inline-flex;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: -webkit-baseline-middle;
+    pointer-events: auto;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+    border: 2px solid transparent;
+    box-shadow: none;
+    backdrop-filter: blur(10px);
+    margin-inline-end: 12px;
+    font-weight: bold;
+    padding: 6px 16px;
+}
+.buttn:hover{
+    height: 6vh;
+    width: auto;
+    border: none;
+    margin: 1vh !important;
+    border-radius: 4vh !important;
+    padding: 1vh;
+    background-color: rgba(255, 255, 255, 0.15);
+    display: inline-flex;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: -webkit-baseline-middle;
+    pointer-events: auto;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    border: 2px solid transparent;
+    box-shadow: none;
+    backdrop-filter: blur(10px);
+    margin-inline-end: 12px;
+    font-weight: bold;
+    padding: 6px 16px;
+}

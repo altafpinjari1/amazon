@@ -1,0 +1,32 @@
+.play-list{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+.play-list span{
+position: relative;
+font-size: 8vh;
+color: white;
+top: 16vh;
+left: 3vw;
+font-weight: 800;
+}
+.playlist-create{
+    height: 6vh;
+    width: 10vw;
+    background-color: aqua;
+    border-radius: 4vh;
+    position: relative;
+    top: 25vh;
+    border: none;
+    left: -10vw;
+}
+/* b{
+    position: relative;
+    top: 30vh;
+    left: 20vh;
+}
+p{
+margin-top: 28vh !important;
+margin-left: -6vh;
+} */

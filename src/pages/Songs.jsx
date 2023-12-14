@@ -6,8 +6,7 @@ const Songs = () => {
     return (
         <div className='songs'>
             <span>Songs</span>
-            {/* <b>You have not added any music yet</b>
-            <p>Add songs you like and they will show up here</p> */}
+            <p style={{marginTop:'20vh'}}>Add songs you like and they will show up here</p>
         </div>
     );
 };

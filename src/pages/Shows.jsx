@@ -15,7 +15,7 @@ const Shows = () => {
             </tr>
         </table>
 <h1>Shows</h1>
-{/* <p>Shows you love. Start following your favourite shows and always find them here.</p> */}
+<p>Shows you love. Start following your favourite shows and always find them here.</p>
     </div>
     );
 };

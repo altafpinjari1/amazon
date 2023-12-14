@@ -13,28 +13,8 @@ const Playlists = () => {
             </tr>
         </table>
 <h1>Playlist</h1>
-{/* <p>Listen later. Add episodes to your playlist and always find them here.</p> */}
+<p>Listen later. Add episodes to your playlist and always find them here.</p>
     </div>
     );
 };
-
 export default Playlists;
-
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-       
-
-
-

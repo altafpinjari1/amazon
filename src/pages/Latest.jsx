@@ -13,7 +13,7 @@ const Latest = () => {
             </tr>
             </table>
 <h1>LATEST</h1>
-{/* <p>Follow your favourite podcasts, and come back here for the latest episodes.</p> */}
+<p>Follow your favourite podcasts, and come back here for the latest episodes.</p>
         </div>
     );
 };

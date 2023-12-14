@@ -46,10 +46,10 @@
   margin-top: 10px;
 }
 
-.card-content h2,
+/* .card-content h2,
 .card-content p {
   margin: 0;
-}
+} */
 
 .card:hover {
   background-color: #686666;

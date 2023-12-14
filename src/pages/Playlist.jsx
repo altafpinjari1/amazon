@@ -7,8 +7,7 @@ const Playlist = () => {
         <div className='play-list'>
             <span>Playlists</span>
             <button className='playlist-create'>+ Create Playlist</button>
-            {/* <b>You have not added any music yet</b>
-            <p>Add songs you like and they will show up here</p> */}
+            <p className='p-playlists'>Add songs you like and they will show up here</p>
         </div>
     );
 };

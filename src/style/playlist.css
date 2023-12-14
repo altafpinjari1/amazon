@@ -21,12 +21,14 @@ font-weight: 800;
     border: none;
     left: -10vw;
 }
-/* b{
-    position: relative;
-    top: 30vh;
-    left: 20vh;
+.p-playlists{
+        color: white;
+        font-weight: 600;
+       text-align: center !important;
+       margin-top: 35vh;
 }
-p{
-margin-top: 28vh !important;
-margin-left: -6vh;
-} */
+b{
+    margin-top: 150vh !important;
+    color: white;
+    text-align: center;
+}
